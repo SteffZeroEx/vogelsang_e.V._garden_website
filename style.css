@@ -17,9 +17,9 @@ html{
 
 header {
     width: 100%;
-    height: 885px;
+    height: 886px;
     background-image: url(/pictures/Banner\ head.jpg);
-    border-bottom: solid #9db752;
+    border-bottom: solid 8px #9db752;
     
 }
 nav {
