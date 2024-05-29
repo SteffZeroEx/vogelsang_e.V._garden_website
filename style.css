@@ -1,6 +1,6 @@
 :root {
     --color-1: #432;
-    --background-color-1: #f9f9f9;
+    --background-color-1: #f7f7ea;
     --background-color-2: #fbfbf0;
     --accent-color-1: #9db752;
     --border-color: #999999;
@@ -12,16 +12,19 @@
 }
 html{
     font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, 'Helvetica', sans-serif;
+    scroll-behavior: smooth;
+    
+    
 }
 /*  */
 /* ~general styling all pages ~ */
 /*  */
 
 nav {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%; */
     width: 100%;
     height: 110px;
     position: relative;
