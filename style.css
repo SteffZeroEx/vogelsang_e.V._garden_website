@@ -98,14 +98,14 @@ header {
 }
 header>h1 {
     font-size: 3rem;
-    padding: 1.5rem;
+    padding: 2.5rem;
     text-shadow: 0.01em 0.05em black;
     filter: drop-shadow(0.05em 0.05em 20pt black);
 }
 header>p {
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    -webkit-text-stroke-width: 1.0px;
+    font-size: 1.1rem;
+    padding: 2.5rem;
+    -webkit-text-stroke-width: 0.5px;
     text-shadow: 1px 1px black;
     filter: drop-shadow(1px 1px 10px black);
 }
@@ -114,7 +114,7 @@ header>p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 header>div>a>img {
     height: 45px;
