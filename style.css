@@ -189,7 +189,6 @@ section > p {
   width: 300px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   background-color: var(--background-color-2);
   border: solid 0.5px var(--border-color);
@@ -289,4 +288,57 @@ footer > div > div > a:hover {
   color: var(--border-color);
   transition: 0.3s ease;
   text-decoration: underline;
+}
+/*  */
+/* dates / Termine section */
+/*  */
+
+.dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 15%;
+    row-gap: 5%;
+    margin: 5% 10% 5% 10%;
+    
+}
+.dateCards {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color-2);
+    border: solid 0.5px var(--border-color);
+    border-radius: 20px;
+    color: var(--color-1);
+    box-shadow: 0 0 20px var(--border-color);
+    
+}
+.dateHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 35px;
+    background-color: #9db752;
+    border-radius: 18px 18px 0 0;
+    border-bottom: solid 0.5px var(--border-color);
+    color: var(--color-1);
+    
+}
+.dateText {
+    position: relative;
+    top: 12px;
+}
+#datesInformation {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    
+}
+#datesInformation>ul {
+    list-style-type: none;
+}
+#datesInformation>ul>li {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-size: 0.9em;
 }
