@@ -84,6 +84,14 @@ h2 {
   margin: 0.5em 0 1em 0;
   text-shadow: 0px 10px 40px black;
 }
+input, textarea {
+    margin: 5px 5px 5px 0px;
+  padding: 0.4em;
+  border-radius: 5px;
+  border: solid 0.1px var(--border-color);
+  background-color: #f7f7ea00;
+}
+
 /*  */
 /* Home / Startseite styling */
 /*  */
@@ -246,12 +254,6 @@ fieldset {
   padding: 1em;
 }
 
-fieldset > input {
-  margin: 5px 5px 5px 0;
-  padding: 0.1em;
-  border-radius: 5px;
-  border: solid 0.1px var(--border-color);
-}
 .togglePw {
   display: flex;
   flex-direction: row;
@@ -341,4 +343,40 @@ footer > div > div > a:hover {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
     font-size: 0.9em;
+}
+
+/*  */
+/* contact / Kontakt Seite */
+/*  */
+
+.contactArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--color-1);
+    margin-top: 5%;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contactItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.contactItems>iframe {
+    border: solid 1px var(--border-color);
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--border-color);
+    margin-bottom: 20px;
+}
+.contactItems>p {
+    font-size: 0.8em;
 }
