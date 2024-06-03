@@ -26,7 +26,7 @@
     <!-- Login Section -->
     <section class="login">
       <h1>Login</h1>
-      <form class="loginForm" action="">
+      <form class="loginForm" action="submit" method="get">
         <fieldset>
           <label title="" for="username">Benutzername:</label>
           <input title="" id="username" type="text" placeholder="Name">
@@ -36,7 +36,8 @@
           <div class="togglePw"><input id="togglePassword" title="" type="checkbox" placeholder="ShowPassword"><p>Passwort anzeigen</p></div>
           
         </fieldset>
-        <button>Einloggen</button>
+        <button type="submit" onclick="loginCheck()">Einloggen</button>
+        <p id="falseLogin"></p>
       </form>
     </section>
     <!-- footer area -->
