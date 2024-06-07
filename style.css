@@ -224,7 +224,7 @@ section > div > div > p {
   font-size: 0.85em;
   margin: 0.5em 1.2em 1.5em 1.2em;
 }
-section > div > div > button {
+section > div > div > a {
   margin: 1em;
 }
 
@@ -379,4 +379,37 @@ footer > div > div > a:hover {
   border-radius: 20px;
   box-shadow: 0 0 10px var(--border-color);
   margin-bottom: 20px;
+}
+
+/*  */
+/* Members site / Mitglieder//Ansprechpartner Seite */
+/*  */
+
+.member {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 0 15% 0 15%;
+}
+.memberItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: #fbfbf0;
+  border: solid 0.5px #9999997b;
+  border-radius: 20px;
+  box-shadow: 0 0 2px #9999997b;
+  margin: 1em 2em 1em 2em;
+
+}
+#memberPicture {
+  border-bottom: solid 1px #9999997b;
+  padding: 0.5em 24.5% 0.5em 24.5%;
+}
+#memberName {
+  color: #9db752;
 }
