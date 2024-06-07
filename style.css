@@ -392,7 +392,7 @@ footer > div > div > a:hover {
    justify-content: space-around;
    margin: 0 15% 0 15%;
 }
-.memberItem {
+.mItem {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -406,10 +406,10 @@ footer > div > div > a:hover {
   margin: 1em 2em 1em 2em;
 
 }
-#memberPicture {
+.mPicture {
   border-bottom: solid 1px #9999997b;
   padding: 0.5em 24.5% 0.5em 24.5%;
 }
-#memberName {
+.mName {
   color: #9db752;
 }
