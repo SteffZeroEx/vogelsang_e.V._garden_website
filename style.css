@@ -407,9 +407,14 @@ footer > div > div > a:hover {
 
 }
 .mPicture {
-  border-bottom: solid 1px #9999997b;
-  padding: 0.5em 24.5% 0.5em 24.5%;
+  height: 150px;
+  width: 150px;
 }
 .mName {
   color: #9db752;
+}
+.mLine {
+  background-color: #9999997b;
+  height: 1px;
+  width: 100%;
 }
